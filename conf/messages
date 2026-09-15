@@ -554,6 +554,8 @@ tax-year-summary.payments.hmrcCorrection.text                      = Extra amoun
 tax-year-summary.payments.lpi.paymentOnAccount1.text               = Late payment interest on first payment on account
 tax-year-summary.payments.lpi.paymentOnAccount2.text               = Late payment interest on second payment on account
 tax-year-summary.payments.lpi.balancingCharge.text                 = Late payment interest on balancing payment
+tax-year-summary.payments.lpi.hmrcCorrection.text                  = Late payment interest on the extra amount due to HMRC correction
+tax-year-summary.payments.lpi.enquiryAmendment.text                = Late payment interest on the extra amount due to HMRC enquiry amendment
 tax-year-summary.payments.firstLatePaymentPenalty.text             = First late payment penalty
 tax-year-summary.payments.secondLatePaymentPenalty.text            = Second late payment penalty
 tax-year-summary.payments.lateSubmissionPenalty.text               = Late submission penalty
@@ -1636,11 +1638,10 @@ reporting.frequency.manageReportingFrequency.b2.link                = Opt out of
 
 #different obligations
 reporting.frequency.different.obligations.heading                           = What the different reporting obligations are
-reporting.frequency.different.obligations.p1                                = When you are using Making Tax Digital for Income Tax you need to:
-reporting.frequency.different.obligations.li1                               = create, store and correct digital records of your self-employment and property income and expenses
-reporting.frequency.different.obligations.li2                               = submit your quarterly updates
-reporting.frequency.different.obligations.li3                               = file your tax return
-reporting.frequency.different.obligations.p2                                = Even if you are not using Making Tax Digital for Income Tax, you still need to file a tax return.
+reporting.frequency.different.obligations.p1                                = When you are using Making Tax Digital for Income Tax you need to submit:
+reporting.frequency.different.obligations.li1                               = 4 updates a year for each source of self employment and property income
+reporting.frequency.different.obligations.li2                               = a tax return
+reporting.frequency.different.obligations.p2                                = For tax years you are opted out of, you only need to file a tax return.
 reporting.frequency.different.obligations.p2hasExempt                       = For tax years you are opted out of or exempt, you only need to file a tax return.
 reporting.frequency.different.obligations.p3                                = Find out what is due and when on the
 reporting.frequency.different.obligations.link.text                         = your submission deadlines
@@ -1682,11 +1683,11 @@ reporting.frequency.compatibleSoftware.heading.R17                      = When y
 reporting.frequency.compatibleSoftware.p1.R17                           = Whether you are required or voluntarily signed up, you need
 reporting.frequency.compatibleSoftware.link.text.R17                    = software compatible with Making Tax Digital for Income Tax
 reporting.frequency.compatibleSoftware.p2.R17                           = There are both paid and free options for you or your agent to choose from.
-reporting.frequency.compatibleSoftware.p3.R17                           = If you are not using Making Tax Digital for Income Tax, you can find out here how to
+reporting.frequency.compatibleSoftware.p3.R17                           = If you are opted out, you can find out here how to
 reporting.frequency.compatibleSoftware.p3hasExempt.R17                  = If you are opted out or exempt, you can find out here how to
 reporting.frequency.compatibleSoftware.link2.text                       = file your Self Assessment tax return
 
-
+reporting.frequency.required.obligation                             = These are your required obligations. you must complete any outstanding updates before you can submit your return.
 reporting.frequency.table.h2                                        = How often you need to report
 reporting.frequency.table.h2.R17                                    = How you report for each tax year
 reporting.frequency.table.heading.taxyear                           = Tax year
@@ -2029,12 +2030,12 @@ whatYouOwe.lpi.reviewAndReconcilePoa1.text                         = Late paymen
 whatYouOwe.lpi.reviewAndReconcilePoa2.text                         = Late payment interest for second payment on account: extra amount
 whatYouOwe.lpi.itsaReturnAmendment.text                            = Late payment interest on balancing payment: extra amount due to amended return
 whatYouOwe.hmrcAdjustment.text                                     = HMRC adjustment
+whatYouOwe.hmrcCorrection.text                                     = Extra amount to pay due to HMRC correction
 whatYouOwe.lpi.paymentOnAccount1.text                              = Late payment interest on first payment on account
 whatYouOwe.lpi.paymentOnAccount2.text                              = Late payment interest on second payment on account
 whatYouOwe.lpi.balancingCharge.text                                = Late payment interest on balancing payment
 whatYouOwe.balancingCharge.text  							       = Balancing payment
 whatYouOwe.enquiryAmendment.text                                   = Extra amount to pay due to HMRC enquiry amendment
-whatYouOwe.hmrcCorrection.text                                     = Extra amount to pay due to HMRC correction
 whatYouOwe.balancingCharge.interest.line1.text                     = Interest on Balancing payment
 whatYouOwe.balancingCharge.interest.line2.text                     = {0} to {1}
 whatYouOwe.lateSubmissionPenalty.text                              = Late submission penalty
@@ -2330,6 +2331,8 @@ chargeSummary.lpi.chargeHistory.created.paymentOnAccount2.text	    = Late paymen
 chargeSummary.lpi.chargeHistory.created.reviewAndReconcilePoa1.text = Late payment interest created for first payment on account extra amount
 chargeSummary.lpi.chargeHistory.created.reviewAndReconcilePoa2.text = Late payment interest created for second payment on account extra amount
 chargeSummary.lpi.chargeHistory.created.balancingCharge.text	    = Late payment interest on balancing payment created
+chargeSummary.lpi.chargeHistory.created.hmrcCorrection.text         = Late payment interest created for extra amount due to HMRC correction
+chargeSummary.lpi.chargeHistory.created.enquiryAmendment.text       = Late payment interest created for extra amount due to HMRC enquiry amendment
 chargeSummary.lpi.chargeHistory.created.firstLatePaymentPenalty.text = HMRC created your late payment interest on first late payment penalty
 chargeSummary.lpi.chargeHistory.created.lateSubmissionPenalty.text  = HMRC created your late payment interest on late submission penalty
 chargeSummary.lpi.chargeHistory.created.itsaReturnAmendment.text    = Late payment interest created on balancing payment extra amount
@@ -2689,6 +2692,8 @@ yourSelfAssessmentChargeSummary.enquiryAmendment.text.heading                   
 yourSelfAssessmentChargeSummary.lpi.paymentOnAccount1.text.heading					= Late payment interest on first payment on account
 yourSelfAssessmentChargeSummary.lpi.paymentOnAccount2.text.heading					= Late payment interest on second payment on account
 yourSelfAssessmentChargeSummary.lpi.balancingCharge.text.heading					= Late payment interest on balancing payment
+yourSelfAssessmentChargeSummary.lpi.hmrcCorrection.text.heading                     = Late payment interest on the extra amount due to HMRC correction
+yourSelfAssessmentChargeSummary.lpi.enquiryAmendment.text.heading                   = Late payment interest on the extra amount due to HMRC enquiry amendment
 yourSelfAssessmentChargeSummary.lpi.interestPeriod								    = Interest period:
 yourSelfAssessmentChargeSummary.lpi.interestPeriod.dates						    = {0} to {1}
 
@@ -2751,7 +2756,8 @@ yourSelfAssessmentChargeSummary.enquiryAmendment.p1                             
 yourSelfAssessmentChargeSummary.enquiryAmendment.link                               = tax calculation for {0} to {1}
 yourSelfAssessmentChargeSummary.enquiryAmendment.p2                                 = , resulting in an extra amount to pay towards your tax bill.
 
-
+yourSelfAssessmentChargeSummary.hmrcCorrection.p1                                   = HMRC corrected your tax return and this resulted in an extra amount to pay towards your {0} to {1} tax bill.
+yourSelfAssessmentChargeSummary.chargeHistory.hmrcCorrection.caption.text           = This extra amount goes towards your {0} to {1} tax bill.
 
 yourSelfAssessmentChargeSummary.itsaReturnAmendmentCredit.p1                        = HMRC has added a credit to your account because your amended tax return shows that your {0} to {1} tax bill was too high.
 yourSelfAssessmentChargeSummary.itsaReturnAmendmentCredit.p2                        = This credit may be used automatically by HMRC to cover your future tax bills when they become due.

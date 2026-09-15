@@ -550,6 +550,8 @@ tax-year-summary.payments.hmrcCorrection.text                  = Swm ychwanegol 
 tax-year-summary.payments.lpi.paymentOnAccount1.text           = Llog am dalu’n hwyr ar gyfer taliad ar gyfrif 1 o 2
 tax-year-summary.payments.lpi.paymentOnAccount2.text           = Llog am dalu’n hwyr ar gyfer taliad ar gyfrif 2 o 2
 tax-year-summary.payments.lpi.balancingCharge.text             = Llog am dalu’n hwyr ar gyfer y Taliad Mantoli
+tax-year-summary.payments.lpi.hmrcCorrection.text              = Llog am dalu’n hwyr ar y swm ychwanegol o ganlyniad i gywiriadau CThEF
+tax-year-summary.payments.lpi.enquiryAmendment.text            = Llog am dalu’n hwyr ar y swm ychwanegol o ganlyniad i ddiwygiad yn sgil ymholiad CThEF
 tax-year-summary.payments.firstLatePaymentPenalty.text         = Cosb gyntaf am dalu’n hwyr
 tax-year-summary.payments.secondLatePaymentPenalty.text        = Ail gosb am dalu’n hwyr
 tax-year-summary.payments.lateSubmissionPenalty.text           = Cosb am gyflwyno’n hwyr
@@ -1623,11 +1625,10 @@ reporting.frequency.manageReportingFrequency.b2.link = Optio allan o adrodd yn c
 
 #different obligations
 reporting.frequency.different.obligations.heading                           = Yr ymrwymiadau o ran rhoi gwybod i ni
-reporting.frequency.different.obligations.p1                                = Pan fyddwch yn defnyddio’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm, bydd angen i chi wneud y canlynol:
-reporting.frequency.different.obligations.li1                               = creu, cadw, a chywiro cofnodion digidol o’ch incwm o hunangyflogaeth ac eiddo a’ch treuliau
-reporting.frequency.different.obligations.li2                               = cyflwyno’ch diweddariadau chwarterol
-reporting.frequency.different.obligations.li3                               = cyflwyno’ch Ffurflen Dreth
-reporting.frequency.different.obligations.p2                                = Hyd yn oed os nad ydych yn defnyddio’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm, mae angen i chi gyflwyno Ffurflen Dreth o hyd.
+reporting.frequency.different.obligations.p1                                = Pan fyddwch yn defnyddio Troi Treth yn Ddigidol ar gyfer Treth Incwm, bydd angen i chi gyflwyno:
+reporting.frequency.different.obligations.li1                               = 4 diweddariad y flwyddyn ar gyfer pob ffynhonnell o incwm o hunangyflogaeth ac eiddo
+reporting.frequency.different.obligations.li2                               = Ffurflen Dreth
+reporting.frequency.different.obligations.p2                                = Ar gyfer blynyddoedd treth yr ydych wedi optio allan ohonynt, bydd dim ond angen i chi gyflwyno Ffurflen Dreth.
 reporting.frequency.different.obligations.p2hasExempt                       = Ar gyfer blynyddoedd treth yr ydych wedi optio allan neu wedi’i esemptio, bydd dim ond angen i chi gyflwyno Ffurflen Dreth.
 reporting.frequency.different.obligations.p3                                = Dysgwch faint sy’n ddyledus ac erbyn pryd ar y dudalen
 reporting.frequency.different.obligations.link.text                         = eich dyddiadau cau ar gyfer cyflwyno
@@ -1669,10 +1670,11 @@ reporting.frequency.compatibleSoftware.heading.R17                      = Pan fy
 reporting.frequency.compatibleSoftware.p1.R17                           = P’un a oes angen i chi gofrestru neu wedi cofrestru’n wirfoddol, mae angen
 reporting.frequency.compatibleSoftware.link.text.R17                    = meddalwedd sy’n cydweddu â’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm arnoch
 reporting.frequency.compatibleSoftware.p2.R17                           = Gallwch chi, neu’ch asiant, ddewis o blith amrywiaeth o becynnau meddalwedd, gan gynnwys rhai sy’n rhad ac am ddim a rhai y mae angen talu amdanynt.
-reporting.frequency.compatibleSoftware.p3.R17                           = Os nad ydych yn defnyddio’r cynllun Troi Treth yn Ddigidol ar gyfer Treth Incwm, gallwch ddysgu yma sut i
-reporting.frequency.compatibleSoftware.p3hasExempt.R17                  = Os ydych chi wedi optio allan neu wedi’i esemptio, gallwch ddarganfod yma sut i
+reporting.frequency.compatibleSoftware.p3.R17                           = Os ydych chi wedi optio allan, gallwch ddarganfod yma sut i
+reporting.frequency.compatibleSoftware.p3hasExempt.R17                  = Os ydych chi wedi optio allan, gallwch ddarganfod yma sut i
 reporting.frequency.compatibleSoftware.link2.text                       = gyflwyno’ch Ffurflen Dreth Hunanasesiad
 
+reporting.frequency.required.obligation                             = Dyma’ch rhwymedigaethau gofynnol. Mae’n rhaid i chi gwblhau unrhyw ddiweddariadau sydd heb eu cwblhau cyn y gallwch gyflwyno’ch Ffurflen Dreth.
 reporting.frequency.table.h2                                        = Pa mor aml y mae angen i chi gyflwyno adroddiadau
 reporting.frequency.table.h2.R17                                    = Sut rydych yn rhoi gwybod ar gyfer pob blwyddyn dreth
 reporting.frequency.table.heading.taxyear                           = Blwyddyn Dreth
@@ -1747,7 +1749,7 @@ reporting.frequency.latency.details.section.text.para3.text.2                 =
 reporting.frequency.latency.details.section.header.updateR17                  = Gall amlder eich adroddiadau ar gyfer eich busnes newydd fod ar sail amlder gwahanol
 reporting.frequency.latency.details.section.text.para1.updateR17              = Ar gyfer blynyddoedd treth rydych yn defnyddio Troi Treth yn Ddigidol ar gyfer Treth Incwm, gallwch ddewis ar wahân i optio allan ar gyfer unrhyw ffynhonnell incwm o eiddo neu fasnachwr newydd:
 reporting.frequency.latency.details.section.text.para1.bullet1.updateR17      = a ddechreuodd llai na 2 flynedd yn ôl
-reporting.frequency.latency.details.section.text.para1.bullet2.updateR17      = eich bod yn dechrau yn y dyfodol
+reporting.frequency.latency.details.section.text.para1.bullet2.updateR17      = sy’n cael ei ddechrau gennych yn y dyfodol
 reporting.frequency.latency.details.section.text.para2.updateR17              = Mae’r opsiwn hwn ar gael i’ch busnesau newydd:
 reporting.frequency.latency.details.section.text.para2.bullet1.updateR17      = am hyd ar 2 flwyddyn dreth
 reporting.frequency.latency.details.section.text.para2.bullet2.updateR17      = dim ond pan fyddwch yn defnyddio Troi Treth yn Ddigidol ar gyfer Treth Incwm ar gyfer eich busnesau eraill
@@ -2016,9 +2018,9 @@ whatYouOwe.reviewAndReconcilePoa2.text                          = Ail daliad ar 
 whatYouOwe.lpi.reviewAndReconcilePoa1.text                      = Llog ar y taliad cyntaf ar gyfrif: swm ychwanegol
 whatYouOwe.lpi.reviewAndReconcilePoa2.text                      = Llog ar yr ail daliad ar gyfrif: swm ychwanegol
 whatYouOwe.hmrcAdjustment.text                                  = Addasiad CThEF
+whatYouOwe.hmrcCorrection.text                                  = Swm ychwanegol i’w dalu o ganlyniad i gywiriad gan CThEF
 whatYouOwe.balancingCharge.text  							    = Taliad mantoli
 whatYouOwe.enquiryAmendment.text                                = Swm ychwanegol i’w dalu oherwydd diwygiad yn sgil ymholiad gan CThEF
-whatYouOwe.hmrcCorrection.text                                  = Swm ychwanegol i’w dalu o ganlyniad i gywiriad gan CThEF
 whatYouOwe.lateSubmissionPenalty.text                           = Cosb am gyflwyno’n hwyr
 whatYouOwe.firstLatePaymentPenalty.text                         = Cosb gyntaf am dalu’n hwyr
 whatYouOwe.secondLatePaymentPenalty.text                        = Ail gosb am dalu’n hwyr
@@ -2316,6 +2318,8 @@ chargeSummary.lpi.chargeHistory.created.paymentOnAccount2.text          = Llog a
 chargeSummary.lpi.chargeHistory.created.reviewAndReconcilePoa1.text     = Llog am dalu’n hwyr wedi’i greu ar gyfer swm ychwanegol taliad cyntaf ar gyfrif
 chargeSummary.lpi.chargeHistory.created.reviewAndReconcilePoa2.text     = Llog am dalu’n hwyr wedi’i greu ar gyfer swm ychwanegol ail daliad ar gyfrif
 chargeSummary.lpi.chargeHistory.created.balancingCharge.text            = Llog am dalu’n hwyr ar gyfer y Taliad Mantoli wedi’i greu
+chargeSummary.lpi.chargeHistory.created.hmrcCorrection.text             = Llog am dalu’n hwyr wedi’i greu ar gyfer swm ychwanegol o ganlyniad i gywiriadau CThEF
+chargeSummary.lpi.chargeHistory.created.enquiryAmendment.text           = Llog am dalu’n hwyr wedi’i greu ar gyfer swm ychwanegol o ganlyniad i ddiwygiad yn sgil ymholiad CThEF
 chargeSummary.lpi.chargeHistory.created.itsaReturnAmendment.text        = Llog am dalu’n hwyr wedi’i greu ar gyfer swm ychwanegol taliad mantoli
 
 chargeSummary.lpi.balancingCharge.p1                               = Mae arnoch log i CThEF oherwydd eich bod wedi talu’ch taliad mantoli yn hwyr.
@@ -2604,6 +2608,8 @@ yourSelfAssessmentChargeSummary.interestOnCharge.p2                     = Talwch
 yourSelfAssessmentChargeSummary.lpi.paymentOnAccount1.text.heading					    = Llog am dalu’n hwyr ar y taliad ar gyfrif cyntaf
 yourSelfAssessmentChargeSummary.lpi.paymentOnAccount2.text.heading				        = Llog am dalu’n hwyr ar yr ail daliad ar gyfrif
 yourSelfAssessmentChargeSummary.lpi.balancingCharge.text.heading	    		        = Llog am dalu’n hwyr ar gyfer y balans sy’n weddill
+yourSelfAssessmentChargeSummary.lpi.hmrcCorrection.text.heading                         = Llog am dalu’n hwyr ar y swm ychwanegol o ganlyniad i gywiriadau CThEF
+yourSelfAssessmentChargeSummary.lpi.enquiryAmendment.text.heading                       = Llog am dalu’n hwyr ar y swm ychwanegol o ganlyniad i ddiwygiad yn sgil ymholiad CThEF
 yourSelfAssessmentChargeSummary.lpi.interestPeriod								        = Cyfnod llog:
 yourSelfAssessmentChargeSummary.lpi.interestPeriod.dates							    = {0} i {1}
 
@@ -2736,6 +2742,9 @@ yourSelfAssessmentChargeSummary.itsaReturnAmendment.warning                     
 yourSelfAssessmentChargeSummary.enquiryAmendment.p1                                 = Yn dilyn gwiriad cydymffurfio, gwnaeth CThEF newid i’ch Ffurflen Dreth a elwir yn ‘diwygiad yn sgil ymholiad’. Newidiodd hyn eich
 yourSelfAssessmentChargeSummary.enquiryAmendment.link                               = cyfrifiad treth ar gyfer {0} i {1}
 yourSelfAssessmentChargeSummary.enquiryAmendment.p2                                 = , gan arwain at swm ychwanegol i’w dalu tuag at eich bil treth.
+
+yourSelfAssessmentChargeSummary.hmrcCorrection.p1                                   = Fe wnaeth CThEF gywiro eich Ffurflen Dreth ac fe arweiniodd hyn at swm ychwanegol i’w dalu tuag at eich bil treth {0} i {1}.
+yourSelfAssessmentChargeSummary.chargeHistory.hmrcCorrection.caption.text           = Mae’r swm ychwanegol hwn yn cyfrannu at eich bil treth {0} i {1}.
 
 yourSelfAssessmentChargeSummary.itsaReturnAmendmentCredit.p1                        = Mae CThEF wedi ychwanegu credyd at eich cyfrif oherwydd bod eich Ffurflen Dreth ddiwygiedig yn dangos bod eich bil treth ar gyfer {0} i {1} yn rhy uchel.
 yourSelfAssessmentChargeSummary.itsaReturnAmendmentCredit.p2                        = Efallai y bydd CThEF yn defnyddio’r credyd hwn yn awtomatig i dalu’ch biliau treth yn y dyfodol pan fydd y rhain yn dod yn ddyledus.
